@@ -8,7 +8,7 @@ const siteConfig = {
   personal: {
     name: 'Krina Vagadia',
     title: 'Student | Christ university',
-    image: getAsset('images/profile.png'), // Customize or replace with your profile image
+    image: getAsset(''), // Customize or replace with your profile image
     description:
       'I’m a first-year B.Sc. Economics and Data Science student passionate about finance and analytics. I am keen to explore how data, leveraging tools like Python and Excel, can reveal financial trends and support smarter economic decisions.\n' +
       '\n' +
