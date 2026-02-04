@@ -6,27 +6,27 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Put your name inside the quote',
-    title: 'Your Title | Your Role',
+    name: 'Krina Vagadia',
+    title: 'Student | Christ university',
     image: getAsset('images/profile.png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'I’m a first-year B.Sc. Economics and Data Science student passionate about finance and analytics. I am keen to explore how data, leveraging tools like Python and Excel, can reveal financial trends and support smarter economic decisions.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'As I progress in my studies and grow my skills, I seek opportunities to apply what I learn through meaningful projects, collaborations, and real-world experiences.\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
+      'I also intend to contribute in volunteering work for the society.\n' +
       '\n' +
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: 'Continuously learning, consistently improving',
+    location: 'Bengaluru, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
+    title: 'Krina Vagadia – Student',
     description: "Portfolio website showcasing your education, research, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Student', 'Economics with Data analytics', 'finance', 'economics'],
 
   navigation: [
     { name: 'Home', url: '/' },
@@ -51,35 +51,31 @@ const siteConfig = {
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ University',
+      degree: 'B.Sc. Economiccs with Data Science',
+      year: '2025-2028',
       image: getAsset('images/education/placeholder.png'),
       description: ['Brief description of your focus or thesis'],
     },
     {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
+      institution: 'CMR NPUC',
+      degree: 'Higher Secondary',
+      year: '2023-2025',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['Science-PCMB'],
     },
   ],
 
 // ✅ Unified MOOC + Certifications Section
   certifications: [
     {
-      title: 'Your Certificate or Specialization',
+      title: 'Entreprenuership ad Managemnet skill',
       specialization: true,
       file: getAsset('images/education/Certifications/download.svg'),
       certificates: [
         { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
         { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
       ],
-    },
-    {
-      title: 'Another Certificate',
-      file: getAsset('images/education/Certifications/download.svg'),
     },
   ],
 
@@ -88,18 +84,18 @@ const siteConfig = {
   // ✅ Experience section updated
   experience: [
     {
-      title: 'Your Role',
+      title: 'Vignette Windows - A Writers Guild',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Your Organization',
-      time: '(MMM YYYY – Present)',
-      desp: ['Brief responsibility 1', 'Brief responsibility 2'],
+      place: 'Christ University',
+      time: '(2025– Present)',
+      desp: ['Conducted field research at college events, interviewing performers, organizers, and spectators to capture diverse perspectives on event dynamics and participant experiences.', 'Connected with performers, organizers, and students at college events, helping create engaging stories that captured the real energy of campus life.'],
     },
     {
-      title: 'Previous Role',
+      title: 'CUSBMA | Working Committee Member - Hospitality Committee',
       cardImage: getAsset('images/experience/placeholder.png'),
-      place: 'Previous Organization',
-      time: '(MMM YYYY – MMM YYYY)',
-      desp: ['Key contribution 1', 'Key contribution 2'],
+      place: 'Christ University',
+      time: '(2025-Present)',
+      desp: ['Served as primary hospitality contact for guests and judges at CUSBMA events, ensuring smooth experiences for industry experts.', 'Gained direct exposure to industry leaders through frontline interactions, building professional networks while maintaining high standards.'],
     },
   ],
 
@@ -107,9 +103,9 @@ const siteConfig = {
   // ✅ Projects section updated
   projects: [
     {
-      title: 'Project Title 1',
+      title: 'News Headline',
       cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Short description of your project and what it does...',
+      description: 'An Application that can categorize news headlines into different topics.',
       Githublink: 'https://github.com/your-username/your-project',
     },
     {
@@ -148,9 +144,9 @@ const siteConfig = {
   ],
 
   contact: {
-    email: 'your.email@example.com',
-    linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
+    email: 'krina.vagadia@bscedsh.christuniversity.in',
+    linkedin: 'www.linkedin.com/in/krina-vagadia-a68138321/',
+    github: 'https://github.com/krinavs-byte',
     googleScholar: 'https://scholar.google.com/citations?user=YOURID',
     orcid: 'https://orcid.org/0000-0000-0000-0000',
   },
